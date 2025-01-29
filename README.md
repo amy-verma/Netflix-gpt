@@ -19,6 +19,7 @@ Currently, two official plugins are available:
 - useRef Hoo
 - Firebase Setup
 - Deploying our app to production
+- Create signup User Account for firebase
 
 
 # Features
