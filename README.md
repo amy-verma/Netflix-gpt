@@ -12,8 +12,13 @@ Currently, two official plugins are available:
 - Create React App
 - Configured Tailwind CSS
 - Header
+- Routing
 - Login Form
-- Sign Up form
+- Sign Up for
+- Form Validation
+- useRef Hoo
+- Firebase Setup
+- Deploying our app to production
 
 
 # Features
@@ -27,6 +32,6 @@ Currently, two official plugins are available:
         - MovieSuggestion
             - MovieLists
 
--Netflisc GPT
+-Netflix GPT
   - Search Bar
   - Movie Suggestion
