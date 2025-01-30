@@ -20,6 +20,7 @@ Currently, two official plugins are available:
 - Firebase Setup
 - Deploying our app to production
 - Create signup User Account for firebase
+- Created Tedux Store using userSlice
 
 
 # Features
