@@ -20,7 +20,13 @@ Currently, two official plugins are available:
 - Firebase Setup
 - Deploying our app to production
 - Create signup User Account for firebase
-- Created Tedux Store using userSlice
+- Created Redux Store using userSlice
+- Implemented Sign Out
+- Update Profile
+- BugFix : Sign up user displayName and profile picture update
+- BugFix: if the user is not logged in Redirect/browse to Login Page and Vice-versa 
+- Unsubscribed to the onAuthStateChanged callback
+- Add hardcodede values to the constant files
 
 
 # Features
