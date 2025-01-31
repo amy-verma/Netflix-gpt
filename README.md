@@ -27,6 +27,8 @@ Currently, two official plugins are available:
 - BugFix: if the user is not logged in Redirect/browse to Login Page and Vice-versa 
 - Unsubscribed to the onAuthStateChanged callback
 - Add hardcodede values to the constant files
+- Register for TMDB API & creare an app & get access token
+- Det Data from TMDB now playing movies list API
 
 
 # Features
