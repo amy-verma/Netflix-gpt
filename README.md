@@ -16,7 +16,7 @@ Currently, two official plugins are available:
 - Login Form
 - Sign Up for
 - Form Validation
-- useRef Hoo
+- useRef Hoo    
 - Firebase Setup
 - Deploying our app to production
 - Create signup User Account for firebase
@@ -28,7 +28,9 @@ Currently, two official plugins are available:
 - Unsubscribed to the onAuthStateChanged callback
 - Add hardcodede values to the constant files
 - Register for TMDB API & creare an app & get access token
-- Det Data from TMDB now playing movies list API
+- Get  Data from TMDB now playing movies list API
+- created movies store
+- add json.results into movieslice
 
 
 # Features
