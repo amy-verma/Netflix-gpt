@@ -47,3 +47,11 @@ Currently, two official plugins are available:
 -Netflix GPT
   - Search Bar
   - Movie Suggestion
+
+
+ - MainContainer
+    - VideoBackground
+    - VideoTitle
+ - secondary Container
+    - MovieList *n
+    - cards*n
