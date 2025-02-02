@@ -31,6 +31,15 @@ Currently, two official plugins are available:
 - Get  Data from TMDB now playing movies list API
 - created movies store
 - add json.results into movieslice
+- Custom Hook for now playing movies
+- Create movie Slice
+- Update store with movie data
+- Planning for main container & Secondary Container
+- Fetch data for trailer video
+- Update store with trailer video data
+
+- Embed the youtube video & make it autoplay and mute
+-Tailwind classes to make main conatiner look awesome
 
 
 # Features
