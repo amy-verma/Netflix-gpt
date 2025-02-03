@@ -37,10 +37,14 @@ Currently, two official plugins are available:
 - Planning for main container & Secondary Container
 - Fetch data for trailer video
 - Update store with trailer video data
-
 - Embed the youtube video & make it autoplay and mute
 - Tailwind classes to make main conatiner look awesome
 - Build Secondary Component
+- Built Movie List
+- Build Movie Card
+- TMDB image CDN URL
+- Fetch popular movies using custom 
+- usePopularMovie Custom Hook
 
 
 # Features
