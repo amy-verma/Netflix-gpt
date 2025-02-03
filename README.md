@@ -39,7 +39,8 @@ Currently, two official plugins are available:
 - Update store with trailer video data
 
 - Embed the youtube video & make it autoplay and mute
--Tailwind classes to make main conatiner look awesome
+- Tailwind classes to make main conatiner look awesome
+- Build Secondary Component
 
 
 # Features

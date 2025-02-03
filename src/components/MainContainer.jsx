@@ -7,7 +7,7 @@ const MainContainer=()=>{
     //early return
     if(!movies) return;
     const mainMovie=movies[0]
-    console.log("Main Movie",mainMovie)
+    //console.log("Main Movie",mainMovie)
 
     const {original_title,overview,id}=mainMovie
     return(
