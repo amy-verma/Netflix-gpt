@@ -45,6 +45,7 @@ Currently, two official plugins are available:
 - TMDB image CDN URL
 - Fetch popular movies using custom 
 - usePopularMovie Custom Hook
+- GPT Seacrch feature
 
 
 # Features
