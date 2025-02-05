@@ -5,24 +5,22 @@ import { API_OPTIONS } from "../util/constants";
 
 //fetch data from TMDB API and update store
 
-const usePopularMovies=()=>{
-    const dispatch=useDispatch();
+const usePopularMovies = () => {
+    const dispatch = useDispatch();
 
-
-
-    const getPopularMovies=
-    async()=>{
-        const data=await fetch('https://api.themoviedb.org/3/movie/popular?language=en-US&page=1', API_OPTIONS)
-        const json=await data.json()
+    const getPopularMovies = async () => {
+        const data = await fetch(
+            "https://api.themoviedb.org/3/movie/popular?language=en-US&page=1",
+            API_OPTIONS
+        );
+        const json = await data.json();
         // console.log("popular",json)
-        dispatch(addPopularMovies(json.results))
-    }
+        dispatch(addPopularMovies(json.results));
+    };
 
-    useEffect(()=>{
+    useEffect(() => {
         getPopularMovies();
-    },[]);
-
-  
-}
+    }, []);
+};
 
 export default usePopularMovies;
