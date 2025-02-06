@@ -3,7 +3,7 @@ import { auth } from "../utils/firebase";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { addUser, removeUser } from "../util/userSlice"; 
+import { addUser, removeUser } from "../util/userSlice";
 import { toggleGptSearchView } from "../util/gptSlice";
 
 const Header = () => {
@@ -23,10 +23,10 @@ const Header = () => {
                 navigate("/error`");
             });
     };
-      // eslint-disable-next-line no-unused-vars
-      const handleGptSearchClick=()=>{
-        dispatch(toggleGptSearchView())
-      }
+    // eslint-disable-next-line no-unused-vars
+    const handleGptSearchClick = () => {
+        dispatch(toggleGptSearchView());
+    };
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -47,8 +47,6 @@ const Header = () => {
                 navigate("/");
             }
         });
-
-      
 
         return () => unsubscribe();
     }, []);

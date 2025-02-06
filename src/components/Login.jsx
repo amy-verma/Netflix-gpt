@@ -9,7 +9,7 @@ import {
 import { useDispatch } from "react-redux";
 import { addUser } from "../util/userSlice";
 import { auth } from "../utils/firebase";
-import { USER_AVATAR } from "../util/constants";
+import { BG_URL, USER_AVATAR } from "../util/constants";
 
 const Login = () => {
     const [isSignInForm, setIsSignInForm] = useState(true);
@@ -104,17 +104,9 @@ const Login = () => {
     return (
         <div>
             <Header />
-            <div
-                className="relative h-screen bg-no-repeat bg-cover"
-                style={{
-                    backgroundImage: `url('https://assets.nflxext.com/ffe/siteui/vlv3/7a8c0067-a424-4e04-85f8-9e25a49a86ed/web/IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_large.jpg')`,
-                }}
-            >
-                {/* <img className="object-cover"
-                    src="https://assets.nflxext.com/ffe/siteui/vlv3/7a8c0067-a424-4e04-85f8-9e25a49a86ed/web/IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_large.jpg"
-                    alt="bg-image" 
-                    
-                /> */}
+            <div className="relative h-screen bg-no-repeat bg-cover">
+                 <img src={BG_URL}/>
+                
             </div>
             <form 
                 onSubmit={(e) => e.preventDefault()}

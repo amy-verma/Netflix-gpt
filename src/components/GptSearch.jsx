@@ -1,7 +1,20 @@
-const GptSearch=()=>{
-    return (
-        <div>From GPT Search</div>
-    )
-}
+import { BG_URL } from "../util/constants";
+import GptMovieSeggestion from "./GptMovieSuggestion";
+import GptSearchBar from "./GptSearchBar";
 
-export default GptSearch
+const GptSearch = () => {
+    return (
+        <div>
+            <div className="absolute h-screen -z-10">
+                <img
+                    alt="logo"
+                    src={BG_URL}
+                />
+            </div>
+            <GptSearchBar />
+            <GptMovieSeggestion />
+        </div>
+    );
+};
+
+export default GptSearch;
