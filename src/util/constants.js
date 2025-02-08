@@ -20,3 +20,8 @@ export const SUPPORTED_LNGUAGES = [
     { identifier: "hindi", name: "Hindi" },
     { identifier: "spanish", name: "Spanish" },
 ];
+
+export const OPENAI_KEY="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";
+
+// open-ai-api-key- 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
+//Gemini API KEY- AIzaSyDT01hAsCxCV0T_AsSkKjM4qmw1X_p-y0s

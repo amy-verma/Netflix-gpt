@@ -45,7 +45,9 @@ Currently, two official plugins are available:
 - TMDB image CDN URL
 - Fetch popular movies using custom 
 - usePopularMovie Custom Hook
-- GPT Seacrch feature
+- GPT Search Page
+- GPT Searchh Bar
+- (Bonus) Multi-language Feature in our App
 
 
 # Features
