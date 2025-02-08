@@ -1,8 +1,8 @@
 import OpenAI from 'openai';
-import { OPENAI_KEY } from '../util/constants';
 
 const openai = new OpenAI({
-  apiKey: OPENAI_KEY,dangerouslyAllowBrowser: true ,
+  // eslint-disable-next-line no-undef
+  apiKey: process.env.OPENAI_KEY,dangerouslyAllowBrowser: true ,
 });
 
 export default openai 
